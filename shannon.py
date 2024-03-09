@@ -3,9 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def shannon_entropy(p):
-    """
-    Calculate the Shannon entropy of a distribution
-    """
+    # calculate the Shannon entropy of a distribution
+
     return -np.sum(p * np.log2(p))
 
 # create distributions X (normal), Y (uniform), and Z (deterministic)
